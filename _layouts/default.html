@@ -1,19 +1,31 @@
 ---
+layout: compress
 ---
-<!DOCTYPE html>
-<html lang="en">
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
-    {% include header.html %}
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
+
   <body>
-    <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
-    <div id = "wrapper">
-      {%include navigation.html %}
-      <div class="container">
-        {{ content }}
-      </div>
-      {% include footer.html %}
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     </div>
+
     {% include scripts.html %}
+
   </body>
 </html>
