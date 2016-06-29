@@ -188,16 +188,19 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
+ jekyll-archives:
+   enabled:
+     - year
+     - categories
 #     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+   layouts:
+     year: year-archive
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     year: '/:year/'
+     category: /categories/:name/
+     tag: /tags/:name/
 
 
 # HTML Compression
