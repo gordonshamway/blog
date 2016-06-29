@@ -64,7 +64,7 @@ google_ad_slot           :
 # Site Author
 author:
   name             : "Stefan Buchholz"
-  avatar           : "bio-photo.jpg"
+  avatar           : "profile.jpg"
   bio              : "Data engineer"
   location         : "Rheinland, Germany"
   email            : "stef.buchholz@googlemail.com"
