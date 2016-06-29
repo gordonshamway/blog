@@ -65,7 +65,7 @@ google_ad_slot           :
 author:
   name             : "Stefan Buchholz"
   avatar           : "2.png"
-  bio              : "Data engineer"
+  bio              : "Data engineer, Use technolgy for getting insights in data. Building cool stuff"
   location         : "Rheinland, Germany"
   email            : "stef.buchholz@googlemail.com"
   uri              :
@@ -80,10 +80,10 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/stefan-buchholz-99542411"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "http://stackoverflow.com/users/1697997/user1697997"
   steam            :
   tumblr           :
   twitter          :
