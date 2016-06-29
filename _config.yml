@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "de-de"
+locale                   : "en-En"
 title                    : "Lost in Data"
 title_separator          : "-"
 name                     : "Stefan Buchholz"
-description              : "An amazing website."
+description              : "Blog about data, Business Intelligence, Big Data, Pentaho, SSIS, SSRS, Spark, Hadoop, Microsoft"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /blog # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -18,9 +18,9 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "lostindata1" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -52,9 +52,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-80057232-1"
 
 # Google AdSense
 google_ad_client         :
@@ -65,9 +65,9 @@ google_ad_slot           :
 author:
   name             : "Stefan Buchholz"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Data engineer"
+  location         : "Rheinland, Germany"
+  email            : "stef.buchholz@googlemail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,7 +89,7 @@ author:
   twitter          :
   vine             :
   weibo            :
-  xing             :
+  xing             : "https://www.xing.com/profile/Stefan_Buchholz7"
   youtube          :
 
 
