@@ -7,7 +7,7 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/
 
   - title: "All Blog Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+    url: /posts/
 
 #  - title: "Sample Pages"
 #    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
