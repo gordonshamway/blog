@@ -6,21 +6,21 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-En"
-title                    : "Lost in Data"
-title_separator          : "-"
-name                     : "Stefan Buchholz"
+locale                   : en-US
+title                    : Lost in Data
+title_separator          : -
+name                     : Stefan Buchholz
 description              : "Blog about data, Business Intelligence, Big Data, Pentaho, SSIS, SSRS, Spark, Hadoop, Microsoft"
-url                      : "https://gordonshamway.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
+url                      : https://gordonshamway.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : /blog # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
+  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", custom"
   disqus:
-    shortname            : "lostindata1" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : lostindata1 # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -52,9 +52,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google" #false # false (default), "google", "google-universal", "custom"
+  provider               : google #false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-80057232-1"
+    tracking_id          : UA-80057232-1
 
 # Google AdSense
 google_ad_client         :
@@ -63,11 +63,11 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Stefan Buchholz"
-  avatar           : "2.png"
+  name             : Stefan Buchholz
+  avatar           : 2.png
   bio              : "Data engineer, Use technolgy for getting insights in data. Building cool stuff"
-  location         : "Rheinland, Germany"
-  email            : "stef.buchholz@googlemail.com"
+  location         : Rheinland, Germany
+  email            : stef.buchholz@googlemail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -75,7 +75,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : #"https://github.com/gordonshamway"
   google_plus      :
   keybase          :
   instagram        :
@@ -148,10 +148,11 @@ kramdown:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title/
+#permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -223,3 +224,13 @@ defaults:
       comments: true
       share: true
       related: true
+
+# Seitenlayout
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
