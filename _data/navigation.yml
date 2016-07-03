@@ -7,7 +7,7 @@ main:
     url: /about/
 
   - title: "All Blog Posts"
-    url: /posts/
+    url: /year-archive/
 
   - title: "RSS"
     url: /feed.xml
