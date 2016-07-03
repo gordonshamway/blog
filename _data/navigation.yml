@@ -9,6 +9,8 @@ main:
   - title: "All Blog Posts"
     url: /posts/
 
+  - title: "RSS"
+    url: /feed.xml
 #  - title: "Sample Pages"
 #    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
 

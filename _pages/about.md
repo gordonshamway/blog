@@ -3,7 +3,7 @@ title: "personal description"
 layout: single
 excerpt: "Pecription about me."
 sitemap: true
-permalink: /about.html
+permalink: /about
 ---
 
 Sorry, but the page you were trying to view does not exist --- perhaps you can try searching for it below.
