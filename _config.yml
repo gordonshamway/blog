@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : en-US
+locale                   : "en-US"
 title                    : Lost in Data
 title_separator          : "-"
 name                     : Stefan Buchholz
@@ -148,8 +148,8 @@ kramdown:
 
 
 # Outputting
-permalink: /:year/:month/:day/:title/
-#permalink: /:categories/:title/
+#permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -189,19 +189,19 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
- jekyll-archives:
-   enabled:
-     - year
-     - categories
-     - tags
-   layouts:
-     year: year-archive
-     category: archive-taxonomy
-     tag: archive-taxonomy
-   permalinks:
-     year: '/:year/'
-     category: /categories/:name/
-     tag: /tags/:name/
+# jekyll-archives:
+#   enabled:
+#     - year
+#     - categories
+#     - tags
+#   layouts:
+#     year: year-archive
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     year: '/:year/'
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 
 # HTML Compression
