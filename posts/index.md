@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: archive-taxonomy
 title: All Posts
 excerpt: "A List of Posts"
 image:
