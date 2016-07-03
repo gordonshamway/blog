@@ -148,8 +148,8 @@ kramdown:
 
 
 # Outputting
-permalink: /:year/:month/:day/:title/
-#permalink: /:categories/:title/
+#permalink: /:year/:month/:day/:title/
+permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -226,11 +226,11 @@ defaults:
       related: true
 
 # Seitenlayout
-defaults:
+#defaults:
   # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+#  - scope:
+#      path: ""
+#      type: pages
+#    values:
+#      layout: single
+#      author_profile: true
