@@ -1,9 +1,9 @@
 ---
 title: "personal description"
 layout: single
+author: True
 excerpt: "Pecription about me."
 sitemap: true
-permalink: /about
 ---
 
 Sorry, but the page you were trying to view does not exist --- perhaps you can try searching for it below.
