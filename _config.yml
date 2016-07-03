@@ -213,7 +213,7 @@ compress_html:
 
 #Standardlayout
 defaults:
-   _posts
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -227,7 +227,7 @@ defaults:
 
 # Seitenlayout
 defaults:
-   _pages
+  # _pages
   - scope:
       path: ""
       type: pages
