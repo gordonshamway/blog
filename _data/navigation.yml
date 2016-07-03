@@ -4,7 +4,7 @@ main:
 #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
   - title: "About"
-    url: /pages/about.html
+    url: /about/
 
   - title: "All Blog Posts"
     url: /posts/
