@@ -9,7 +9,9 @@ main:
   - title: "All Blog Posts"
     url: /year-archive/
 
+# hier ein Icon einfügen <i class="fa fa-fw fa-rss-square" aria-hidden="true">
   - title: "RSS"
+    icon: rss-square
     url: /feed.xml
 #  - title: "Sample Pages"
 #    url: https://mmistakes.github.io/minimal-mistakes/page-archive/

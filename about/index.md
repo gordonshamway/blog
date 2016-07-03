@@ -1,13 +1,6 @@
 ---
 layout: single
-title: About
-tags: [about, Jekyll, theme, responsive]
-modified: 2015-09-27T20:53:07.573882-04:00
-comments: true
-image:
-  feature: background.jpg
-  credit: solisvending
-  creditlink: http://solisvending.net/
+title: About Me
 ---
 
 > TLDR; Short and Copyable version
