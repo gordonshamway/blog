@@ -45,7 +45,7 @@ Logistics | SQL-Server 2008, DB2, MySQL, Pentaho Data Integration, Pentaho Repor
 | -------- | ----------- |
 | Coursera | Computing for Data Analysis, Data Analysis, Introduction to Data Science, The Data Scientist´s Toolbox, R-Programming, Getting and cleaning Data, Machine Learning, Practical Machine Learning, Developing Data Products, Regression Models, Statistical Interference, Process Mining: Data Science in Action, Reproducible Research, Exploratory Analysis |
 | edx Berkely | Scalable Machine Learning, Introduction to Big Data with Apache Spark, Introduction to Linux |
-|openSAP | An Introduction to SAP HANA by Dr. Vishal Sikka, BI Clients and Applications on SAP HANA, Introduction to SAP HANA Cloud Platform, SAP Business Warehouse powered by SAP HANA, BI 4 Platform Innovation and Implementation, SAP´s UX Strategy in a Nutshell by Sam Yen|
+|openSAP | An Introduction to SAP HANA by Dr. Vishal Sikka, BI Clients and Applications on SAP HANA, Introduction to SAP HANA Cloud Platform, SAP Business Warehouse powered by SAP HANA, BI 4 Platform Innovation and Implementation, SAP´s UX Strategy in a Nutshell by Sam Yen,|
 
 ### Education:
 Business-Engineer (diploma) from University of Applied Science - DE-Mönchengladbach / Krefeld 
