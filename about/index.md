@@ -3,67 +3,53 @@ layout: single
 title: About Me
 ---
 
-> TLDR; Short and Copyable version
---------------------------------
-> Rafael Benevides is a Director of Developer Experience at [Red Hat](http://www.redhat.com). 
-In his current role he helps developers worldwide to be more effective in software development, 
-and he also promotes tools and practices that help them to be more productive.
-He worked in several fields including application
-architecture and design. Besides that, he is a member
-of [Apache DeltaSpike](http://deltaspike.apache.org) PMC
-- a Duke’s Choice Award winner project.  And a speaker in conferences like JUDCon, TDC, JavaOne and Devoxx.
-[Twitter](http://twitter.com/rafabene)
-| [LinkedIn](https://www.linkedin.com/in/rafaelbenevides)
-| [rafabene.com](http://rafabene.com)
-
-<hr>
-
 ### Who am I?
 
-Hi, my name is Rafael Benevides. I am a 38 years old Brazilian who lives in [Raleigh,NC](https://www.google.com/maps/place/Raleigh,+NC/). Here, I work as a Director of Developer Experience at [Red Hat](http://www.redhat.com).
+Hi, my Name is Stefan Buchholz and I´m a Data Engineer working in a Consulting position @ rheindata
+I´m interessted all about data, data pipelines and architectures like Hadoop. From the step where data is generated into a file
+all over the databases through a datawarehouse and visualization while finally transfered with machine learning into valuable insights.
 
-### Java developer
-I started learning Java in 2003 at a Lato Sensu Class. It was a first love sensation. After that I have been studying and trying to use Java as a powered, scalable and productive solution. As a result from this love I took certifications below:
+Since I started reading about Pentaho Datawarehouses in 2009 I was hooked. Additionally Machine Learning and Kaggle Competitions where making me interessted into the whole data world. I wanted to be part of it...
 
-- 2003 – Sun Certified Programmer for the Java 2 Platform 1.4
-- 2004 – Sun Certified Web Component Developer for J2EE 1.4
-- 2006 – Sun Certified Enterprise Architect for Java Platform Enterprise Edition Technology
-- 2007 – Sun Certified Business Component Developer for the Java Platform, Enterprise Edition 5
-- 2007 – ITIL Foundation Certified
-- 2007 – SAP Netweaver Certified
-- 2008 – Sun Certified Java Associate
-- 2009 – IBM Certified Specialist: Software Quality
-- 2010 – JBCAA – JBoss Certified Application Administrator – EAP 5
-- 2012 – JBCD-Seam – JBoss Certified Developer in Seam
-- 2012 – JBCAA – JBoss Certified Application Administrator – EAP 6
-- 2016 - Red Hat Certificate of Expertise in Platform-as-a-Service - Openshift 3
-- 2016 - Red Hat Certificate of Expertise in Containerized Application Development
+**My actual interests are:**
 
-### The early days
+- PySpark
+- Hive
+- Oozie
+- SQL Server
+- Pentaho Data Integration
+- Docker
+- Tableau
 
-My contact with technology begun in 1988/1989 when I did my first IPD(Data Processing Introduction) and MS-DOS training. On those days, computers were like from another planet. They were very expensive. Each computer had a price of a popular car. I also made DBASE3 and Lotus 123 trainings that year. So in 1994 my father and mother gave me an unforgettable birthday gift: It was a 486 Cytrix dx2 66Mhz with 8MB of ram and 100MB Hard Disk .
+### What I´ve done so far in BI:
 
-### The Linux days
+Sector     | Technolgy	| Description
+-------- | ----------- |
+Media | SQL-Server 2012/2014, SSIS, SSRD, SSMS, Visual Studio, Sharepoint, Tableau, GIT | datamart developement (integrating new datasources, staging, SCD1, deduplicating, pivoting, partitioning, snapshot-based CDC hashes), developement of a autodocumenting code system based on TSQL and yEd, planning and creating of a template based dimension and fact creation system, dashboardgeneration with tableau based on google analytics data scraped with python, SSIS and TSQL, developement of a monitoring system including screen dimension and errorfact (Kimball), developement of a ETL flow to get ECB Currency Codes and use them in several other dataflows
+Chemics | SAP BusinessObjects Web-Intelligence | planning, crafting and teaching sessions about SAP BusinessObjects Web-Intelligence
+Consulting | SAP BusinessObjects Data-Services, SAP HANA Cloud Platform, SAP Design Studio | developing JSON Interface of local car park data to HANA via Data-Services, modeling analytical-views, dashboard developement with Design Studio
+Healthcare | SAP Universe Design Tool | planning, crafting and teaching sessions about SAP BusinessObjects Universe-Design-Tool
+Consulting |SAP BusinessObjects Data-Services, SQL-Server 2012, SAP Universe-Design-Tool, SAP Business Objects Web-Intelligence | record of demand,  building of ETL pileline, SCD2, universe developement, visualization of a sales dashboard with Web-Intelligence
+Logistics | SQL-Server 2008, DB2, MySQL, Pentaho Data Integration, Pentaho Report Designer, Pentaho Schema Workbench, Pentaho BI-Server with CCC, R, Ubuntu Linux, Nagios, checkmk | developement of a KPI-System to control the main processes, ETL to publish factoring relevant data, generated a social media dashboard with the help of R, creating a auto suggestion system which best bin to use for an item, automatic bill generation with Pentaho Report Designer, reporting-bursting with Pentaho Report Designer and Data Integration, conceptionizing datawarehouse and data quality-system (check based), developement of a monitoring system with self written checks for pc hardware and services, developing a monitor of external import processes with BI-Server CCC
 
-In 1995 a new ISP (Internet Service Provider) called [Genetic](http://www.genetic.com.br/) was founded in my town. They’re using [Slackware](http://www.slackware.com/) Linux. That year I had my first contact with the Internet. When everyone was installing Win95, I was installing my Linux Slackware copy… The motivation was people saying: “Wow! Linux, that’s a Hacker SO!” (laughs). In 1996 I started at university and also started to work in [Genetic](http://www.genetic.com.br/). There I had a great teacher, [Flavio de Sousa](http://flaviodesousa.com/) who is an amazing mind and an incomparable geek :)
+### Certificates I´ve got:
+- Cloudera Certified Developer for Apache Hadoop (CCDH)
+- Querying Microsoft SQL Server 2012 (70-461)
+- Linux LPIC-101
+- Six Sigma Yellow Belt
 
-### The enterprise days
-From 2001 to 2004 I worked at [Lab. Neo Química](http://www.neoquimica.com.br/) as System Analyst (started as Support Analyst) and participated on Fox Project. A SAP R/3 installation project including modules: MM(Materials Management), FI(Financial), CO(Controlling), QM(Quality Management), PP(Production Planning), SD(Sales and Distribution) and WM(Warehouse Management). I was QM and PP Key-User.
 
-After I finished my Lato Sensu post-graduation in 2004, I moved to [Brasilia](https://www.google.com/maps/place/Brasília+-+Federal+District,+Brazil/) to  work until May 2007 in Politec allocated in [Brazilian Ministry of Justice](http://www.justica.gov.br/) where I participated in many projects that uses Java from Persistence Engine, passing by Business Component, and finally in view (Web or Desktop).
-I worked for [Summa Technologies](http://www.summa-tech.com/) and [INEP](http://www.inep.gov.br/) developing system with 20.000 simultaneous users.
 
-In november of 2009 I joinned [Red Hat](http://www.redhat.com/en) as JBoss Consultant. In 2012 I moved to Software Engineer working hard to promote enterprise Java solutions in an effective way. Since 2016 I become a Senior Product Manager, having the mission push even further the tools and practices that help developers to be more productive.
+### Coursed I´ve done:
+Provider| Topic	|
+-------- | -----------
+Coursera | Computing for Data Analysis, Data Analysis, Introduction to Data Science, The Data Scientist´s Toolbox, R-Programming, Getting and cleaning Data, Machine Learning, Practical Machine Learning, Developing Data Products, Regression Models, Statistical Interference, Process Mining: Data Science in Action, Reproducible Research, Exploratory Analysis
+edx Berkely | Scalable Machine Learning, Introduction to Big Data with Apache Spark, Introduction to Linux
+openSAP | An Introduction to SAP HANA by Dr. Vishal Sikka, BI Clients and Applications on SAP HANA, Introduction to SAP HANA Cloud Platform, SAP Business Warehouse powered by SAP HANA, BI 4 Platform Innovation and Implementation, SAP´s UX Strategy in a Nutshell by Sam Yen
 
-My actual interests are:
-
-- Object Oriented / Functional Programming
-- Javascript (AngularJS and NodeJS)
-- Productive and Scalable Solutions
-- Containers (Docker, Kubernetes and Openshift) 
-- DevOps tools and practices
-- Microservices
-- Agile Methodologies
+### Education:
+Business-Engineer (diploma) from University of Applied Science - DE-Mönchengladbach / Krefeld 
+Logistics (intermediate diploma) frin Fontys Hogeschool - NL-Venlo
 
 That’s all.
 
