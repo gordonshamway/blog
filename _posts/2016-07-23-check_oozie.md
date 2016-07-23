@@ -2,7 +2,7 @@
 layout: single
 title: Check if oozie is running properly with an example!
 comments: True
-permalink: my-new-post2
+permalink: hadoop_oozie_check
 author: True
 categories:
 - blog
