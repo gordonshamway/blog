@@ -2,7 +2,7 @@
 layout: single
 title: Use Formatmessage to make it simple!
 comments: True
-permalink: my-new-post2
+permalink: tsql_formatmessage
 author: True
 categories:
 - blog
