@@ -14,10 +14,10 @@ Hi guys,
 If you have oozie installed or it was installed on a instance where you are working with it is always nice to make sure that everything is properly working. Also you have to find a way all around the big data infrastructure that you´re working with.
 So in this example which is based on the excellent video which I found on [Youtube](https://www.youtube.com/watch?v=Y1Fvz9tgdA8&list=PLf0swTFhTI8pH1wHiMMTLQCYFSIhrBAqZ&index=2)
 
-##Goal
+## Goal
 find out if oozie is working correctly by using the examples deployed with the package. In this blogpost we are going to use the simple java-main example which is a simple map job to find out if everything is fine.
 
-##1. Do we have the examples?
+## 1. Do we have the examples?
 to check if we have the examples I´m talking about we drop a simple bash command on our favourite terminal:
 ```bash
 find /usr -name "oozie*examples*"
@@ -35,7 +35,7 @@ with the find command you can also see examples for spark!
 {% endcapture %}
 <div class="notice">{{ notice-1 | markdownify }}</div>
 
-##2. Get the examples to a place which is comfortable to us
+## 2. Get the examples to a place which is comfortable to us
 We copy the found file to a local directory and unpack it:
 ```bash
 mkdir demo
@@ -47,7 +47,7 @@ cd examples/apps/java-main
 the application code itself exists in the lib folder underneath the current one which is named **oozie-examples-4.2.0.2.4.0.0-169.jar**
 so now we are in the correct folder which we want to copy to hdfs
 
-##3. Find the relevant information to configure and run this: 
+## 3. Find the relevant information to configure and run this: 
 To make a correct config file we should know the following things in advance:
 **- server which is the oozie host**
 **- namenode**
