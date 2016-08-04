@@ -10,9 +10,6 @@ categories:
 - SSIS
 ---
 
-Parsing logfile date in SSIS -C# Script
-======================
-
 recently I had a problem parsing the following date with SSIS: **"Fri 01Jul16 00:02:59"** as you would write it with python coding would be easy as pie:
 
 ```python
