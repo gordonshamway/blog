@@ -1,3 +1,15 @@
+---
+layout: single
+title: Parsing a Logfile date in SSIS with the help of C#
+comments: True
+permalink: parsing_logfile_date
+author: True
+categories:
+- blog
+- 2016
+- SSIS
+---
+
 Parsing logfile date in SSIS -C# Script
 ======================
 
