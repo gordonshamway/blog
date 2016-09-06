@@ -25,13 +25,10 @@ Think that we have two filegroups as you can see in the picture below. Next imag
 We want to move partition **5711** from the **last_year** filegroup to the right of partition **4715** in the **archive** filegroup
 
 
-{% capture notice-1 %}
-#### Info
 
-Since we only show the partition movement for one partition in last_year on purpose because it is the same for every partition this should be enough for your clarification!
-{% endcapture %}
+>#### Info
+>Since we only show the partition movement for one partition in last_year on purpose because it is the same for every partition this >should be enough for your clarification!
 
-<div class="notice">{{ notice-1 | markdownify }}</div>
 
 
 Now the steps to get to our aim should be as follows:
@@ -98,15 +95,8 @@ ALTER PARTITION FUNCTION [pf_Partitionfunction]()
 MERGE RANGE( Partitionboundary 5711 );
 ```
 
-{% capture notice-2 %}
-#### Warning
-
-ATTENTION we havent moved data yet, we just touched structers so far in step 3
-{% endcapture %}
-
-<div class="warning">{{ notice-2 | markdownify }}</div>
-ALERT
-
+>#### Warning
+>We havent moved data yet, we just touched structers so far in step 3
 
 Next we will make sure that the **archive** filegroup is used, so we just take action and do this:
 
@@ -165,3 +155,4 @@ ALTER PARTITION SCHEME Partitionschema
 NEXT USED last_year(newest id);
 ALTER PARTITION FUNCTION Partitionfunction()
 SPLIT RANGE (last_value);
+```
