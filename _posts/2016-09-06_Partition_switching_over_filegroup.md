@@ -2,7 +2,7 @@
 layout: single
 title: Partitionswitching over filegroups!
 comments: True
-permalink: partitionswitching
+permalink: Partition_switching_over_filegroup
 author: True
 categories:
 - blog
